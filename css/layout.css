@@ -1,0 +1,57 @@
+/* 
+
+	----  U N I V E R S A L   L A Y O U T   C S S   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For:
+	- 
+
+*/
+
+
+
+/* TAGS */
+body {
+    background-color: #242424;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    background-color: white;
+    max-width: 50%;
+
+}
+/* ################ */
+
+
+
+/* NAVBAR */
+.navbar-color {
+    background-color: #353535;
+}
+
+.dropdown-menu {
+    background-color: #cacaca;
+}
+/* ################ */
+
+
+
+/* FOOTERS */
+.upper-footer-background {
+    width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+.lower-footer-background {
+    background-color: #353535;
+    width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+.footer-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

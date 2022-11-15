@@ -1,77 +1,110 @@
 <!DOCTYPE html>
+
+<!--
+	----  R E N D E R   S T I L L S   H T M L   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	NOTE TO CURIOUS CODE SNOOPERS;
+
+	Welcome! I publish this code to GitHub for a reason, so those learning to code in HTML and CSS can easily reference it if they like a certain design or "way of doing something" I've included in this website. You are welcome to copy/paste any bit of code within this repository, free of charge or credit. Seriously, where would web developers be if they didn't copy/paste.
+
+	I just ask one small thing. As someone going to college to be a teacher, I want those learning HTML and CSS to understand the content they're taking from a place like this. IF YOU BORROW/USE CODE, MAKE SURE YOU UNDERSTAND WHAT IT DOES AND HOW IT WORKS. DON'T JUST COPY AND PASTE IT. REALLY DIG IN AND UNDERSTAND WHAT YOU ARE BORROWING/USING. 
+
+	This only benefits your own personal HTML/CSS coding skills and will make you a better web developer.
+	
+	Cheers, happy coding,
+	- Bluecolty
+-->
+
 <html lang="en">
     <head>
+        <!-- misc important head tags-->
         <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Blue's Blender Stills</title>
         <link rel="icon" href="../../web-images-sidewide/tab-icon.png">
-        <!-- bootstrap links -->
+
+		<!-- page css document linking -->
+        <link href="css/stills-page.css" rel="stylesheet">
+
+        <!-- universal css document linking -->
+        <link href="../../css/bootstrap-4.4.1.css" rel="stylesheet">
+        <link href="../../css/buttons.css" rel="stylesheet">
+        <link href="../../css/layout.css" rel="stylesheet">
+        <link href="../../css/misc.css" rel="stylesheet">
+        <link href="../../css/text.css" rel="stylesheet">
+
+        <!-- javascript document linking -->
+        <script src="../../js/jquery-3.4.1.min.js"></script>
+		<script src="../../js/popper.min.js"></script> 
+		<script src="../../js/bootstrap-4.4.1.js"></script>
+		<script src="../../js/myjavascript.js"></script>
 
         <!-- embed information -->
         <meta content="Blue's Blender Stills" property="og:title">
 		<meta content="Description for bluecolty.com Blender still renders. Oh boy, still images" property="og:description">
 		<meta content="Bluecolty.com" property="og:site_name">
 		<meta content="../web-icons/tab-image.png" property="og:image">
-
-        <style>
-            body {
-                background-color: #242424;
-                color: white;
-                margin: auto;
-                text-align: center;
-                font-family:Verdana, Geneva, Tahoma, sans-serif
-            }
-
-            hr {
-                width: 80%;
-            }
-
-            a:link {
-                color: #379ce5;
-            }
-            
-            .box {
-                border-style: solid;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                border-width: 1px;
-                border-radius: 15px;
-                max-width: 80%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            img {
-                border: 1px solid #ddd;
-                border-radius: 4px;
-                padding: 5px;
-                width: 150px;
-            }
-
-            img:hover {
-                box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-            }
-            
-        </style>
     </head>
     
     <body>
-        <br>
-        <h1>Welcome to bluecolty.com</h1>
-
-        <hr>
-
-        <br>
-        <h5>Basic Site Navigation</h5>
-        <a href="http://bluecolty.com">homepage DEV PURPOSES</a> |
-        <a href="http://bluecolty.com/blender-renders/">Blender Renders</a> |
-        <a href="http://bluecolty.com/projects/">Projects</a> |
-        <a href="http://bluecolty.com/youtube">YouTube</a> |
-        <a href="http://bluecolty.com/minecraft">Minecraft</a> |
-        <a href="http://bluecolty.com/downloadables">Downloadables</a> |
-        <a href="http://bluecolty.com/ebay-store">eBay Store</a> |
-        <a href="http://bluecolty.com/links/">Links</a>
+        <!-- banner image -->
+		<header class="stills-banner">
+			<div class="" id="stills-banner-id">
+				<h1 class=""></h1>
+			</div>
+		</header>
+        
+        <!-- navigation bar -->
+		<nav class="navbar navbar-expand-md navbar-dark navbar-color sticky-top fontformat m-0">
+			<div class="container">
+				<a class="navbar-brand" href="http://bluecolty.com"><img height="40" width="40" src="../../web-images-sidewide/tab-icon.png" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- nav links -->
+				<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+                        <li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blender Renders</a>
+							
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="http://bluecolty.com/blender-renders/stills/">Stills</a>
+								<a class="dropdown-item" href="http://bluecolty.com/blender-renders/animations/">Animations</a>
+								<a class="dropdown-item" href="https://bluecolty.com/blender-renders/">View All Renders &raquo;</a>
+							</div>
+						</li>
+                        <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+							
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="http://bluecolty.com/projects/blender-projects/">Random Blender Projects</a>
+								<a class="dropdown-item" href="http://bluecolty.com/projects/invader-zim/">Invader Zim Projects</a>
+                                <a class="dropdown-item" href="http://bluecolty.com/projects/misc-projects/">Misc Projects</a>
+								<a class="dropdown-item" href="https://bluecolty.com/projects/">View All Projects &raquo;</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link navtext" href="http://bluecolty.com/youtube/">YouTube</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="http://bluecolty.com/minecraft/">Minecraft</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="http://bluecolty.com/downloadables/">Downloadables</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="http://bluecolty.com/ebay-store">eBay Store</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link" href="http://bluecolty.com/links/">Links</a>
+						</li>
+                        
+					</ul>
+				</div>
+			</div>
+		</nav>
         
         <br>
         <br>
@@ -102,5 +135,62 @@
         
         <p>Tall one is for phone/mobile, wide one is for desktop usage. Click on the image to open in a new tab, then download the image.</p>
 	    
+        <!-- footer 1 (top) -->
+        <footer class="upper-footer-background">
+			<div class="row footer-padding">
+				<div class="col">
+					<h3 class="">Explore more &raquo;</h3>
+					<ul class="" style="list-style: none">
+						<li>
+							<a href="" target="_blank">#</a>
+						</li>
+						
+						<li>
+							<a href="" target="_blank">#</a>
+						</li>
+                        
+                        <li>
+							<a href="" target="_blank">#</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="col">
+					<h3 class="">Connect More &raquo;</h3>
+					<ul class="" style="list-style: none">
+						<li>
+							<a href="#">#</a>
+						</li>
+						
+						<li>
+							<a href="#">#</a>
+						</li>
+						
+						<li>
+							<a href="#">#</a>
+						</li>
+					</ul>
+				</div>
+                    
+                <div class="col">
+                    <img src="../../web-images-sidewide/tab-icon.png" class="" alt="bluecolty icon">
+                </div>
+			</div>
+		</footer>
+		
+		<!-- footer 2 (bottom) --> 
+		<footer class="lower-footer-background">
+			<div class="footer-padding">
+				<p class="">
+					<a href="http://bluecolty.com">Home</a> | <a href="http://bluecolty.com/blender-renders/">Blender Renders</a> | <a href="http://bluecolty.com/youtube/">YouTube Channel</a> | <a href="http://bluecolty.com/downloadables/">Downloadables</a>
+				</p>
+                <hr class="">
+                <p class="">
+                    <a href="">#</a> | <a href="">#</a> | <a href="">#</a> | <a href="">#</a> | <a href="">#</a>
+                </p>
+                <p class="">&middot; &middot; &middot; &middot; &middot; &middot; &middot; &middot; &middot;</p>
+				<p class="">Bluecolty.com &copy;2023 <br> Website designed, built, and hosted by Bluecolty</p>
+			</div>
+		</footer>
     </body>
 </html>
