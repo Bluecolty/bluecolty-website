@@ -1,0 +1,26 @@
+/* 
+
+	----  H T M L   T U T O R I A L S   P A G E   C S S   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For:
+	- 
+
+*/
+
+/* BANNER IMAGE */
+.html-banner {
+	background-image: url("../web-images-tutorials-page/html-page/html-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+#html-banner-id {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+/* FOOTER */
+.upper-footer-background {
+	background-image: url("../web-images-tutorials-page/html-page/html-footer-banner.png");
+}
