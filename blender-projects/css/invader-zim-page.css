@@ -1,0 +1,26 @@
+/* 
+
+	----  I N V A D E R   Z I M   P A G E   C S S   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For:
+	- 
+
+*/
+
+/* BANNER IMAGE */
+.invader-zim-banner {
+	background-image: url("../web-images-blender-projects/invader-zim-page/invader-zim-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+#invader-zim-banner-id {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+/* FOOTER */
+.upper-footer-background {
+	background-image: url("../web-images-blender-projects/invader-zim-page/invader-zim-footer-banner.png");
+}

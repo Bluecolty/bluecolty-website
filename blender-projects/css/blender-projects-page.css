@@ -1,0 +1,26 @@
+/* 
+
+	----  B L E N D E R   P R O J E C T S   C S S   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For:
+	- 
+
+*/
+
+/* BANNER IMAGE */
+.blender-projects-banner {
+	background-image: url("/web-images-blender-projects/blender-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+#blender-projects-banner-id {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+/* FOOTER */
+.upper-footer-background {
+	background-image: url("/web-images-blender-projects/blender-footer-banner.png");
+}

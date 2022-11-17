@@ -9,7 +9,7 @@
 
 /* BANNER IMAGE */
 .stills-banner {
-	background-image: url("../web-images-stills/stills-banner.png");
+	background-image: url("../web-images-blender-projects/stills-page/stills-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
@@ -22,5 +22,5 @@
 
 /* FOOTER */
 .upper-footer-background {
-	background-image: url("../web-images-stills/footer-banner.png");
+	background-image: url("../web-images-blender-projects/stills-page/footer-banner.png");
 }

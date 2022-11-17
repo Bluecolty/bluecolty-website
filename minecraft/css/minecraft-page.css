@@ -1,0 +1,26 @@
+/* 
+
+	----  M I N E C R A F T   P A G E   C S S   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For:
+	- 
+
+*/
+
+/* BANNER IMAGE */
+.minecraft-banner {
+	background-image: url("/web-images-minecraft-page/minecraft-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+#minecraft-banner-id {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+/* FOOTER */
+.upper-footer-background {
+	background-image: url("/web-images-minecraft-page/minecraft-footer-banner.png");
+}

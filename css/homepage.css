@@ -1,0 +1,26 @@
+/* 
+
+	----  H O M E P A G E   C S S   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For:
+	- 
+
+*/
+
+/* BANNER IMAGE */
+.homepage-banner {
+	background-image: url("/web-images-homepage/homepage-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+#homepage-banner-id {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+/* FOOTER */
+.upper-footer-background {
+	background-image: url("/web-images-homepage/homepage-footer-banner.png");
+}

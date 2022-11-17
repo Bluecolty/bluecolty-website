@@ -1,0 +1,26 @@
+/* 
+
+	----  M I N E C R A F T   P A G E   C S S   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For:
+	- 
+
+*/
+
+/* BANNER IMAGE */
+.youtube-banner {
+	background-image: url("/web-images-youtube-page/youtube-banner.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+#youtube-banner-id {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+/* FOOTER */
+.upper-footer-background {
+	background-image: url("/web-images-youtube-page/youtube-footer-banner.png");
+}
