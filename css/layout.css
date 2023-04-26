@@ -7,7 +7,10 @@
 
 */
 
-
+.auto-align {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* TAGS */
 body {
@@ -52,6 +55,6 @@ hr {
 }
 
 .footer-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }

@@ -9,7 +9,7 @@
 
 /* BANNER IMAGE */
 .minecraft-banner {
-	background-image: url("/web-images-minecraft-page/minecraft-banner.png");
+	background-image: url("../web-images-minecraft-page/minecraft-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
@@ -22,5 +22,5 @@
 
 /* FOOTER */
 .upper-footer-background {
-	background-image: url("/web-images-minecraft-page/minecraft-footer-banner.png");
+	background-image: url("../web-images-minecraft-page/minecraft-footer-banner.png");
 }

@@ -22,5 +22,7 @@
 
 /* FOOTER */
 .upper-footer-background {
-	background-image: url("../web-images-blender-projects/stills-page/footer-banner.png");
+	background-image: url("../../web-images-sidewide/sitewide-footer-banner.png");
+	width: 100%;
+
 }

@@ -7,13 +7,62 @@
 
 */
 
+/* GENERAL TEXT EDITING */
+.text-align-center {
+	text-align: center;
+}
+
+
+/* HTML TAG EDITING */
+h1 {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+/* ################ */
+
 /* FOOTER TEXT */
+
+.title-footer-text {
+	font-size: 40px;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+}
+.small-footer-text {
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.regular-footer-text {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.large-footer-text {
+	font-size: 20px;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+}
+
+.large-footer-text li {
+	list-style-type: '> ';
+}
+
+footer a,span {
+	color: white;
+}
+
+footer a:hover {
+	color: #83B9EC;
+}
 
 /* ################ */
 
 /*BODY CLASS TEXT */
 body {
-    text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
