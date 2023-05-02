@@ -24,7 +24,7 @@ h1 {
 /* FOOTER TEXT */
 
 .title-footer-text {
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 	text-shadow: 0px 0px 10px black;
 }
@@ -47,9 +47,11 @@ h1 {
 	text-shadow: 0px 0px 10px black;
 }
 
+/*
 .large-footer-text li {
 	list-style-type: '> ';
 }
+*/
 
 footer a,span {
 	color: white;
