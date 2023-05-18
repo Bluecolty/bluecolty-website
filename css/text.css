@@ -52,6 +52,22 @@ h1 {
 	.title-footer-text, .large-footer-text {
 		text-align: center;
 	}
+
+	.title-footer-text {
+		font-size: 20px;
+	}
+
+	.large-footer-text {
+		font-size: 15px;
+	}
+
+	.regular-footer-text {
+		font-size: 10px;
+	}
+
+	.small-footer-text {
+		font-size: 10px;
+	}
 }
 
 /*

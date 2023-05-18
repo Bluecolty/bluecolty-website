@@ -69,5 +69,12 @@ hr {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px){
+    .footer-icons {
+        max-height: 30px;
+    }
 
+    .footer-padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
