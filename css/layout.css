@@ -56,7 +56,7 @@ hr {
 
 .footer-padding {
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .footer-icons {
@@ -64,5 +64,10 @@ hr {
 }
 
 .bc-footer-icon {
-    max-height: 160px;
+    max-height: 185px;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+
 }
