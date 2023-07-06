@@ -26,7 +26,7 @@
 }
 
 :root {
-	--gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+	--gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%);
 }
   
 .commission-card {
@@ -39,18 +39,18 @@
 .btn {
 	border: 5px solid;
 	border-image-slice: 1;
-	background: var(--gradient) !important;
-	-webkit-background-clip: text !important;
-	-webkit-text-fill-color: transparent !important;
-	border-image-source:  var(--gradient) !important; 
+	background: var(--gradient);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-image-source:  var(--gradient); 
 	text-decoration: none;
 	transition: all .4s ease;
 }
   
-.btn:hover, .btn:focus {
-	background: var(--gradient) !important;
-	-webkit-background-clip: none !important;
-	-webkit-text-fill-color: #fff !important;
+.btn:hover, .btn:active {
+	background: var(--gradient);
+	-webkit-background-clip: none;
+	-webkit-text-fill-color: #fff;
 	box-shadow: #222 1px 0 10px;
-	text-decoration: underline;
 }
+
