@@ -11,6 +11,12 @@
 	--gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%);
 }
 
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .card-body {
+		height: 800px;
+	}
+}
+
 /* BANNER IMAGE */
 .commissions-banner {
 	background-image: url("/web-images-commissions-page/commissions-banner.png");
@@ -38,6 +44,10 @@
 	border: 1px solid #dd2476;
 	color: rgba(250, 250, 250, 0.8);
 	margin-bottom: 2rem;
+}
+
+.card-body {
+	height: 250px;
 }
   
 .btn-custom {
