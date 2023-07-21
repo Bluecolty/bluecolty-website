@@ -13,7 +13,7 @@
 
 /* BANNER IMAGE */
 .commissions-banner {
-	background-image: url("/web-images-commissions-page/commissions-banner.png");
+	background-image: url("../web-images-commissions-page/commissions-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
