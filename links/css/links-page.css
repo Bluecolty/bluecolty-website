@@ -7,6 +7,10 @@
 
 */
 
+:root {
+	--gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%);
+}
+
 /* BANNER IMAGE */
 .links-banner {
 	background-image: url("/web-images-links-page/links-banner.png");
@@ -23,4 +27,37 @@
 /* FOOTER */
 .upper-footer-background {
 	background-image: url("../../web-images-sidewide/sitewide-footer-banner.png");
+}
+
+.commission-card {
+	background: #222;
+	border: 1px solid #dd2476;
+	color: rgba(250, 250, 250, 0.8);
+	margin-bottom: 2rem;
+}
+  
+.btn-custom {
+	border: 1px solid;
+	border-image-slice: 1;
+	background: var(--gradient);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-image-source:  var(--gradient); 
+	text-decoration: none;
+	transition: all .4s ease;
+	display: inline-block;
+	text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+	padding: 0.375rem 0.75rem;
+	text-decoration: none;
+	font-size: 20px;
+}
+  
+.btn-custom:hover, .btn-custom:active {
+	background: var(--gradient);
+	-webkit-background-clip: none;
+	-webkit-text-fill-color: #fff;
+	box-shadow: #222 1px 0 10px;
+	text-decoration: none;
 }
