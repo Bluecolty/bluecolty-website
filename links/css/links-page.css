@@ -13,7 +13,7 @@
 
 /* BANNER IMAGE */
 .links-banner {
-	background-image: url("/web-images-links-page/links-banner.png");
+	background-image: url("../web-images-links-page/links-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;

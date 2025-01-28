@@ -1,6 +1,6 @@
 /* 
 
-	----  M I N E C R A F T   P A G E   C S S   D O C  ----
+	----  Y O U T U B E   P A G E   C S S   D O C  ----
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	For:
 	- 
@@ -9,7 +9,7 @@
 
 /* BANNER IMAGE */
 .youtube-banner {
-	background-image: url("/web-images-youtube-page/youtube-banner.png");
+	background-image: url("../web-images-youtube-page/youtube-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;

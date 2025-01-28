@@ -1,6 +1,6 @@
 /* 
 
-	----  T U T O R I A L S   P A G E   C S S   D O C  ----
+	----  3 D   S T I L L S   P A G E   C S S   D O C  ----
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	For:
 	- 
@@ -8,14 +8,14 @@
 */
 
 /* BANNER IMAGE */
-.tutorials-banner {
-	background-image: url("../web-images-tutorials-page/tutorials-background.jpg");
+.stills-banner {
+	background-image: url("../3d-stills/web-images-3d-stills-page/3d-stills-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
 }
 
-#tutorials-banner-id {
+#stills-banner-id {
 	padding-top: 20%;
 	padding-bottom: 20%;
 }

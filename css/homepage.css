@@ -9,7 +9,7 @@
 
 /* BANNER IMAGE */
 .homepage-banner {
-	background-image: url("/web-images-homepage/homepage-banner.png");
+	background-image: url("../web-images-homepage/homepage-banner.jpg");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
@@ -23,4 +23,12 @@
 /* FOOTER */
 .upper-footer-background {
 	background-image: url("../web-images-sidewide/sitewide-footer-banner.png");
+}
+
+.container img {
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.05);
 }

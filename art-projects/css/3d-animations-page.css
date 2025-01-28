@@ -1,6 +1,6 @@
 /* 
 
-	----  T U T O R I A L S   P A G E   C S S   D O C  ----
+	----  	3 D   A N I M A T I O N S   P A G E   C S S   D O C  ----
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	For:
 	- 
@@ -8,14 +8,14 @@
 */
 
 /* BANNER IMAGE */
-.tutorials-banner {
-	background-image: url("../web-images-tutorials-page/tutorials-background.jpg");
+.animations-banner {
+	background-image: url("../3d-animations/web-images-3d-animations-page/3d-animations-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
 }
 
-#tutorials-banner-id {
+#animations-banner-id {
 	padding-top: 20%;
 	padding-bottom: 20%;
 }
@@ -23,6 +23,4 @@
 /* FOOTER */
 .upper-footer-background {
 	background-image: url("../../web-images-sidewide/sitewide-footer-banner.png");
-	width: 100%;
-
 }
