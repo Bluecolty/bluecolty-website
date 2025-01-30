@@ -1,14 +1,780 @@
 <!DOCTYPE html>
-<html>
+<!--
+	----  A S S E T S   P A G E   H T M L   D O C  ----
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+	NOTE TO CURIOUS CODE SNOOPERS;
+
+	Welcome! I publish this code to GitHub for a reason, so those learning to code in HTML and CSS can easily reference it if they like a certain design or "way of doing something" I've included in this website. You are welcome to copy/paste any bit of code within this repository, free of charge or credit. Seriously, where would web developers be if they didn't copy/paste.
+
+	I just ask one small thing. As someone going to college to be a teacher, I want those learning HTML and CSS to understand the content they're taking from a place like this. IF YOU BORROW/USE CODE, MAKE SURE YOU UNDERSTAND WHAT IT DOES AND HOW IT WORKS. DON'T JUST COPY AND PASTE IT. REALLY DIG IN AND UNDERSTAND WHAT YOU ARE BORROWING/USING. 
+
+	This only benefits your own personal HTML/CSS coding skills and will make you a better web developer.
+	
+	Cheers, happy coding,
+	- Bluecolty
+-->
+<html lang="en">
     <head>
+        <!-- misc important head tags-->
+        <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Assets - Bluecolty.com</title>
+        <link rel="icon" href="../../web-images-sidewide/tab-icon.png">
+
+		<!-- page css document linking -->
+        <link href="../css/assets-page.css" rel="stylesheet">
+
+        <!-- universal css document linking -->
+        <link href="../../css/bootstrap-4.4.1.css" rel="stylesheet">
+        <link href="../../css/buttons.css" rel="stylesheet">
+        <link href="../../css/layout.css" rel="stylesheet">
+        <link href="../../css/misc.css" rel="stylesheet">
+        <link href="../../css/text.css" rel="stylesheet">
+
+        <!-- javascript document linking -->
+        <script src="../../js/jquery-3.4.1.min.js"></script>
+		<script src="../../js/popper.min.js"></script> 
+		<script src="../../js/bootstrap-4.4.1.js"></script>
+		<script src="../../js/myjavascript.js"></script>
+
         <!-- embed information -->
-        <meta name="msapplication-TileImage" content="https://bluecolty.com/web-images-sidewide/embed-icon.png">
+        <meta content="Assets - Bluecolty.com" property="og:title">
+		<meta content="Find and download posted asset packs. Contains high quality assets for use in your Blender projects." property="og:description">
+		<meta content="bluecolty.com" property="og:site_name">
+		<meta content="../web-icons/tab-image.png" property="og:image">
+		<meta name="theme-color" content="3333ff">
+		<meta name="msapplication-TileImage" content="https://bluecolty.com/web-images-sidewide/embed-icon.png">
 		<meta property="og:image" content="https://bluecolty.com/web-images-sidewide/embed-icon.png">
 		<meta property="og:image:width" content="500">
 		<meta property="og:image:height" content="500">
     </head>
 
     <body>
-        <h1> this is working i promise i forgot this page</h1>
+        <!-- banner image -->
+        <header class="assets-banner blur-banner">
+            <div class="" id="assets-banner-id">
+                <h1 class=""></h1>
+            </div>
+        </header>
+
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-md navbar-dark navbar-color sticky-top fontformat m-0">
+            <div class="container">
+                <a class="navbar-brand" href="http://bluecolty.com"><img height="40" width="40" src="../../web-images-sidewide/tab-icon.png" alt="image"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- nav links -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://bluecolty.com/olive-avenue/">Olive Avenue</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Art Projects</a>
+                            
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="http://bluecolty.com/art-projects/3d-stills/">3D Stills</a>
+                                <a class="dropdown-item" href="http://bluecolty.com/art-projects/3d-animations/">3D Animations</a>
+                                <a class="dropdown-item" href="http://bluecolty.com/art-projects/2d-art/">2D Art</a>
+                                <a class="dropdown-item" href="https://bluecolty.com/art-projects/">See All Projects &raquo;</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Commissions</a>
+                            
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="http://bluecolty.com/commissions/">Commissions</a>
+                                <a class="dropdown-item" href="http://bluecolty.com/commissions-tos/">Commissions Terms</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Downloads</a>
+                            
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="http://bluecolty.com/downloads/assets/">Assets</a>
+                                <a class="dropdown-item" href="http://bluecolty.com/downloads/characters/">Characters</a>
+                                <a class="dropdown-item" href="http://bluecolty.com/downloads/">See all Downloads &raquo;</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://bluecolty.com/minecraft/">Minecraft</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://bluecolty.com/youtube/">YouTube</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://bluecolty.com/links/">Links</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+
+        <!-- main body content -->
+        <main class="m-0 p-0">
+
+            <br>
+
+            <!-- CARD SECTION. This code is what does the actual cards. -->
+            <section class="container auto-align">
+                <h2>Asset Downloads</h2>
+
+                <!-- Row 1 -->
+                <div class="mx-auto mt-4">
+                    <div class="row">
+                        <!-- card 1 -->
+	  					<div class="col-sm-12 col-md-4">
+							<div class="commission-card" style="width: 95%; margin-left: auto; margin-right: auto;">
+								<img src="../assets/web-images-assets-page/placeholder-icon.png" class="card-img-top" alt="...">
+								<div class="card-body">
+	  								<h5 class="card-title">[ - ]</h5>
+		  							<h6 class="card-subtitle mb-2 text-muted">Not available yet</h6>
+	  								<p class="card-text">Description coming soon.</p>
+
+									<p class="text-align-center m-0">
+										<a href="#" data-toggle="modal" data-target="#character-card-1" class="btn btn-custom mr-2">More Info &raquo;</a>| <a href="#" target="_blank" class="btn btn-custom">Download &raquo;</a>
+									</p>
+								</div>
+							</div>
+	  					</div>
+						
+						<!-- card 2 -->
+						<div class="col-sm-12 col-md-4">
+							<div class="commission-card" style="width: 95%; margin-left: auto; margin-right: auto;">
+								<img src="../assets/web-images-assets-page/placeholder-icon.png" class="card-img-top" alt="...">
+								<div class="card-body">
+	  								<h5 class="card-title">[ - ]</h5>
+		  							<h6 class="card-subtitle mb-2 text-muted">Not available yet</h6>
+	  								<p class="card-text">Description coming soon.</p>
+
+									<p class="text-align-center m-0">
+										<a href="#" data-toggle="modal" data-target="#character-card-2" class="btn btn-custom mr-2">More Info &raquo;</a>| <a href="#" target="_blank" class="btn btn-custom">Download &raquo;</a>
+									</p>
+								</div>
+							</div>
+	  					</div>
+						
+						<!-- card 3 -->
+						<div class="col-sm-12 col-md-4">
+							<div class="commission-card" style="width: 95%; margin-left: auto; margin-right: auto;">
+								<img src="../assets/web-images-assets-page/placeholder-icon.png" class="card-img-top" alt="...">
+								<div class="card-body">
+	  								<h5 class="card-title">[ - ]</h5>
+		  							<h6 class="card-subtitle mb-2 text-muted">Not available yet</h6>
+	  								<p class="card-text">Description coming soon.</p>
+									
+									<p class="text-align-center m-0">
+										<a href="#" data-toggle="modal" data-target="#character-card-3" class="btn btn-custom mr-2">More Info &raquo;</a>| <a href="#" target="_blank" class="btn btn-custom">Download &raquo;</a>
+									</p>
+								</div>
+							</div>
+	  					</div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="mx-auto mt-4">
+                    <div class="row">
+                        <!-- card 1 -->
+	  					<div class="col-sm-12 col-md-4">
+							<div class="commission-card" style="width: 95%; margin-left: auto; margin-right: auto;">
+								<img src="../characters/web-images-characters-page/placeholder-icon.png" class="card-img-top" alt="...">
+								<div class="card-body">
+	  								<h5 class="card-title">[ - ]</h5>
+		  							<h6 class="card-subtitle mb-2 text-muted">Not available yet</h6>
+	  								<p class="card-text">Description coming soon.</p>
+
+									<p class="text-align-center m-0">
+										<a href="#" data-toggle="modal" data-target="#character-card-4" class="btn btn-custom mr-2">More Info &raquo;</a>| <a href="#" target="_blank" class="btn btn-custom">Download &raquo;</a>
+									</p>
+								</div>
+							</div>
+	  					</div>
+						
+						<!-- card 2 -->
+						<div class="col-sm-12 col-md-4">
+							<div class="commission-card" style="width: 95%; margin-left: auto; margin-right: auto;">
+								<img src="../characters/web-images-characters-page/placeholder-icon.png" class="card-img-top" alt="...">
+								<div class="card-body">
+	  								<h5 class="card-title">[ - ]</h5>
+		  							<h6 class="card-subtitle mb-2 text-muted">Not available yet</h6>
+	  								<p class="card-text">Description coming soon.</p>
+
+									<p class="text-align-center m-0">
+										<a href="#" data-toggle="modal" data-target="#character-card-5" class="btn btn-custom mr-2">More Info &raquo;</a>| <a href="#" target="_blank" class="btn btn-custom">Download &raquo;</a>
+									</p>
+								</div>
+							</div>
+	  					</div>
+						
+						<!-- card 3 -->
+						<div class="col-sm-12 col-md-4">
+							<div class="commission-card" style="width: 95%; margin-left: auto; margin-right: auto;">
+								<img src="../characters/web-images-characters-page/placeholder-icon.png" class="card-img-top" alt="...">
+								<div class="card-body">
+	  								<h5 class="card-title">[ - ]</h5>
+		  							<h6 class="card-subtitle mb-2 text-muted">Not available yet</h6>
+	  								<p class="card-text">Description coming soon.</p>
+									
+									<p class="text-align-center m-0">
+										<a href="#" data-toggle="modal" data-target="#character-card-6" class="btn btn-custom mr-2">More Info &raquo;</a>| <a href="#" target="_blank" class="btn btn-custom">Download &raquo;</a>
+									</p>
+								</div>
+							</div>
+	  					</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MODAL SECTION. Modal code is contained here -->
+
+            <!-- first section -->
+            <section>
+                <!-- card 1 modal -->
+				<section class="modal fade m-0 p-0" id="character-card-1"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+	  					<div class="modal-content" style="background-color: #242424">
+							<div class="modal-header">
+		  						<h2 class="modal-title">AVTP Tallest Red</h2>
+		  						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+		  						</button>
+							</div>
+
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-12 col-lg-6 text-center">
+										<img src="../characters/web-images-characters-page/red-icon.jpg" class="" alt="" style="width: 90%;">
+									</div>
+
+									<div class="col-md-12 col-lg-6">
+										<p>Complete model and rig of Invader Zim's Almighty Tallest Red, based on the AVTP style. This model is fully retopologized and rigged with a basic rig. The rig also features several shapekey expressions.</p>
+
+                                        <h4>Features at a Glance:</h4>
+                                        <ul>
+                                            <li>Easy rig</li>
+                                            <li>Sliders for expressions</li>
+                                        </ul>
+										
+
+										<h4>Downloads:</h4>
+                                        <p><em>Blender 3.6+ Required</em></p>
+										<div class="text-center">
+											<a href="https://www.mediafire.com/file/nd2xt6upa0bh72g/Blue%2527s_AVTP_Tallest_Red_Rig_V2.zip/file" target="_blank" class="btn btn-custom">Mediafire &raquo;</a>| 
+											<a href="https://drive.google.com/file/d/1EoFsu0x__VsxZUqUtb-s3cAAhorB0eON/view?usp=drive_link" target="_blank" class="btn btn-custom">Google Drive &raquo;</a>
+										</div>
+										
+									</div>
+								</div>
+								<br>
+
+                                <!-- carousel commented out
+								<div class="row">
+									<div class="col-12">
+										<h4>Gallery/Examples</h4>
+										<br>
+										<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+											<ol class="carousel-indicators">
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+											</ol>
+											<div class="carousel-inner">
+											  	<div class="carousel-item active">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/szazs basic model together view.jpg" alt="Szazs basic model">
+											  	</div>
+											  	<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/xeo basic model together.jpg" alt="Xeo basic model">
+											  	</div>
+											  	<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/navigator basic model together.jpg" alt="Navigator basic model">
+											  	</div>
+												<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/tallest basic model together.jpg" alt="Tallest basic model">
+											  	</div>
+											</div>
+											<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+											  	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											  	<span class="sr-only">Next</span>
+											</a>
+										</div>
+									</div>
+								</div> -->
+							</div>
+	  					</div>
+					</div>
+  				</section>
+
+                <!-- card 2 modal -->
+				<section class="modal fade m-0 p-0" id="character-card-2"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+	  					<div class="modal-content" style="background-color: #242424">
+							<div class="modal-header">
+		  						<h2 class="modal-title">AVTP Tallest Purple</h2>
+		  						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+		  						</button>
+							</div>
+
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-12 col-lg-6 text-center">
+										<img src="../characters/web-images-characters-page/purple-icon.jpg" class="" alt="" style="width: 90%;">
+									</div>
+
+									<div class="col-md-12 col-lg-6">
+										<p>Complete model and rig of Invader Zim's Almighty Tallest Purple, based on the AVTP style. This model is fully retopologized and rigged with a basic rig. The rig also features several shapekey expressions.</p>
+
+                                        <h4>Features at a Glance:</h4>
+                                        <ul>
+                                            <li>Easy rig</li>
+                                            <li>Sliders for expressions</li>
+                                        </ul>
+										
+
+										<h4>Downloads:</h4>
+                                        <p><em>Blender 3.6+ Required</em></p>
+										<div class="text-center">
+											<a href="https://www.mediafire.com/file/kq5r0718rjv5bow/Blue%2527s_AVTP_Tallest_Purple_Rig_V2.zip/file" target="_blank" class="btn btn-custom">Mediafire &raquo;</a>| 
+											<a href="https://drive.google.com/file/d/1E-OKGbzPFY6rizchv691N3pxcGY4D4Jr/view?usp=drive_link" target="_blank" class="btn btn-custom">Google Drive &raquo;</a>
+										</div>
+										
+									</div>
+								</div>
+								<br>
+
+                                <!-- carousel commented out
+								<div class="row">
+									<div class="col-12">
+										<h4>Gallery/Examples</h4>
+										<br>
+										<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+											<ol class="carousel-indicators">
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+											</ol>
+											<div class="carousel-inner">
+											  	<div class="carousel-item active">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/szazs basic model together view.jpg" alt="Szazs basic model">
+											  	</div>
+											  	<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/xeo basic model together.jpg" alt="Xeo basic model">
+											  	</div>
+											  	<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/navigator basic model together.jpg" alt="Navigator basic model">
+											  	</div>
+												<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/tallest basic model together.jpg" alt="Tallest basic model">
+											  	</div>
+											</div>
+											<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+											  	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											  	<span class="sr-only">Next</span>
+											</a>
+										</div>
+									</div>
+								</div> -->
+							</div>
+	  					</div>
+					</div>
+  				</section>
+
+                <!-- card 3 modal -->
+                <section class="modal fade m-0 p-0" id="character-card-3"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content" style="background-color: #242424">
+                            <div class="modal-header">
+                                <h2 class="modal-title">AVTP Tallest Medea</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-6 text-center">
+                                        <img src="../characters/web-images-characters-page/medea-icon.jpg" class="" alt="" style="width: 90%;">
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-6">
+                                        <p>Complete model and rig of Invader Zim's Almighty Tallest Medea, based on the AVTP style. This model is fully retopologized and rigged with a basic rig. The rig also features several shapekey expressions.</p>
+
+                                        <h4>Features at a Glance:</h4>
+                                        <ul>
+                                            <li>Easy rig</li>
+                                            <li>Sliders for expressions</li>
+                                        </ul>
+                                        
+
+                                        <h4>Downloads:</h4>
+                                        <p><em>Blender 3.6+ Required</em></p>
+                                        <div class="text-center">
+                                            <a href="https://www.mediafire.com/file/mft2nlg529idj7y/Blues_AVTP_Tallest_Medea_Rig_V1.zip/file" target="_blank" class="btn btn-custom">Mediafire &raquo;</a>| 
+                                            <a href="https://drive.google.com/file/d/1kM_SXb9_vCi14FVXHGgLIZmqOBmOLmBq/view?usp=drive_link" target="_blank" class="btn btn-custom">Google Drive &raquo;</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <br>
+
+                                <!-- carousel commented out
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4>Gallery/Examples</h4>
+                                        <br>
+                                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="../commissions/web-images-commissions-page/szazs basic model together view.jpg" alt="Szazs basic model">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../commissions/web-images-commissions-page/xeo basic model together.jpg" alt="Xeo basic model">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../commissions/web-images-commissions-page/navigator basic model together.jpg" alt="Navigator basic model">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../commissions/web-images-commissions-page/tallest basic model together.jpg" alt="Tallest basic model">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- second section -->
+            <section>
+                <!-- card 4 modal -->
+				<section class="modal fade m-0 p-0" id="character-card-4"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+	  					<div class="modal-content" style="background-color: #242424">
+							<div class="modal-header">
+		  						<h2 class="modal-title">[ - ]</h2>
+		  						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+		  						</button>
+							</div>
+
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-12 col-lg-6 text-center">
+										<img src="../characters/web-images-characters-page/placeholder-icon.png" class="" alt="" style="width: 90%;">
+									</div>
+
+									<div class="col-md-12 col-lg-6">
+										<p>-</p>
+
+                                        <h4>-</h4>
+                                        <ul>
+                                            <li>-</li>
+                                            <li>-</li>
+                                        </ul>
+										
+
+										<h4>Downloads:</h4>
+                                        <p><em>Blender 3.6+ Required</em></p>
+										<div class="text-center">
+											<a href="#" target="_blank" class="btn btn-custom">Mediafire &raquo;</a>| 
+											<a href="#" target="_blank" class="btn btn-custom">Google Drive &raquo;</a>
+										</div>
+										
+									</div>
+								</div>
+								<br>
+
+                                <!-- carousel commented out
+								<div class="row">
+									<div class="col-12">
+										<h4>Gallery/Examples</h4>
+										<br>
+										<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+											<ol class="carousel-indicators">
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+											</ol>
+											<div class="carousel-inner">
+											  	<div class="carousel-item active">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/szazs basic model together view.jpg" alt="Szazs basic model">
+											  	</div>
+											  	<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/xeo basic model together.jpg" alt="Xeo basic model">
+											  	</div>
+											  	<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/navigator basic model together.jpg" alt="Navigator basic model">
+											  	</div>
+												<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/tallest basic model together.jpg" alt="Tallest basic model">
+											  	</div>
+											</div>
+											<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+											  	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											  	<span class="sr-only">Next</span>
+											</a>
+										</div>
+									</div>
+								</div> -->
+							</div>
+	  					</div>
+					</div>
+  				</section>
+
+                <!-- card 5 modal -->
+				<section class="modal fade m-0 p-0" id="character-card-5"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+	  					<div class="modal-content" style="background-color: #242424">
+							<div class="modal-header">
+		  						<h2 class="modal-title">[ - ]</h2>
+		  						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+		  						</button>
+							</div>
+
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-12 col-lg-6 text-center">
+										<img src="../characters/web-images-characters-page/placeholder-icon.png" class="" alt="" style="width: 90%;">
+									</div>
+
+									<div class="col-md-12 col-lg-6">
+										<p>-</p>
+
+                                        <h4>-</h4>
+                                        <ul>
+                                            <li>-</li>
+                                            <li>-</li>
+                                        </ul>
+										
+
+										<h4>Downloads:</h4>
+                                        <p><em>Blender 3.6+ Required</em></p>
+										<div class="text-center">
+											<a href="#" target="_blank" class="btn btn-custom">Mediafire &raquo;</a>| 
+											<a href="#" target="_blank" class="btn btn-custom">Google Drive &raquo;</a>
+										</div>
+										
+									</div>
+								</div>
+								<br>
+
+                                <!-- carousel commented out
+								<div class="row">
+									<div class="col-12">
+										<h4>Gallery/Examples</h4>
+										<br>
+										<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+											<ol class="carousel-indicators">
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											  	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+											</ol>
+											<div class="carousel-inner">
+											  	<div class="carousel-item active">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/szazs basic model together view.jpg" alt="Szazs basic model">
+											  	</div>
+											  	<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/xeo basic model together.jpg" alt="Xeo basic model">
+											  	</div>
+											  	<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/navigator basic model together.jpg" alt="Navigator basic model">
+											  	</div>
+												<div class="carousel-item">
+													<img class="d-block w-100" src="../commissions/web-images-commissions-page/tallest basic model together.jpg" alt="Tallest basic model">
+											  	</div>
+											</div>
+											<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+											  	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											  	<span class="sr-only">Next</span>
+											</a>
+										</div>
+									</div>
+								</div> -->
+							</div>
+	  					</div>
+					</div>
+  				</section>
+
+                <!-- card 6 modal -->
+                <section class="modal fade m-0 p-0" id="character-card-6"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content" style="background-color: #242424">
+                            <div class="modal-header">
+                                <h2 class="modal-title">[ - ]</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-6 text-center">
+                                        <img src="../characters/web-images-characters-page/placeholder-icon.png" class="" alt="" style="width: 90%;">
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-6">
+                                        <p>-</p>
+
+                                        <h4>-</h4>
+                                        <ul>
+                                            <li>-</li>
+                                            <li>-</li>
+                                        </ul>
+                                        
+
+                                        <h4>Downloads:</h4>
+                                        <p><em>Blender 3.6+ Required</em></p>
+                                        <div class="text-center">
+                                            <a href="#" target="_blank" class="btn btn-custom">Mediafire &raquo;</a>| 
+                                            <a href="#" target="_blank" class="btn btn-custom">Google Drive &raquo;</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <br>
+
+                                <!-- carousel commented out
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4>Gallery/Examples</h4>
+                                        <br>
+                                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="../commissions/web-images-commissions-page/szazs basic model together view.jpg" alt="Szazs basic model">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../commissions/web-images-commissions-page/xeo basic model together.jpg" alt="Xeo basic model">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../commissions/web-images-commissions-page/navigator basic model together.jpg" alt="Navigator basic model">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../commissions/web-images-commissions-page/tallest basic model together.jpg" alt="Tallest basic model">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <!-- footer 1 (top) -->
+        <footer class="upper-footer-background m-0 p-0">
+            <section class="container row footer-padding auto-align">
+                <div class="col-sm-12 col-md-7 col-lg-5">
+                    <h3 class="title-footer-text">Explore more &raquo;</h3>
+                    <ul class="large-footer-text m-0 p-0" style="list-style: none">
+                        <li style="padding-bottom: 10px;">
+                            <a href="https://bluecolty.com/commissions/"><img src="../../web-images-sidewide/commissions.png" class="footer-icons" alt="bluecolty icon"> Commissions</a>
+                        </li>
+                        
+                        <li style="padding-bottom: 10px;">
+                            <a href="https://bluecolty.com/downloads/"><img src="../../web-images-sidewide/downloads.png" class="footer-icons" alt="bluecolty icon"> Downloads</a>
+                        </li>
+                        
+                        <li style="padding-bottom: 10px;">
+                            <a href="https://bluecolty.com/tutorials/"><img src="../../web-images-sidewide/tutorials.png" class="footer-icons" alt="bluecolty icon"> Tutorials</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-sm-12 col-md-5 col-lg-5">
+                    <h3 class="title-footer-text">Connect more &raquo;</h3>
+                    <ul class="large-footer-text m-0 p-0" style="list-style: none">
+                        <li style="padding-bottom: 10px;">
+                            <a href="https://twitter.com/bluecolty/" target="_blank"><img src="../../web-images-sidewide/twitter-icon.png" class="footer-icons" alt="bluecolty icon"> Twitter</a>
+                        </li>
+                        
+                        <li style="padding-bottom: 10px;">
+                            <a href="https://www.tumblr.com/bluecolty/" target="_blank"><img src="../../web-images-sidewide/tumblr-icon.png" class="footer-icons" alt="bluecolty icon"> Tumblr</a>
+                        </li>
+                        
+                        <li style="padding-bottom: 10px;">
+                            <a href="https://www.deviantart.com/bluecolty" target="_blank"><img src="../../web-images-sidewide/da-icon.png" class="footer-icons" alt="bluecolty icon"> DeviantArt</a>
+                        </li>
+                    </ul>
+                </div>
+                    
+                <div class="col-lg-2 d-none d-lg-block">
+                    <img src="../../web-images-sidewide/tab-icon.png" class="bc-footer-icon" alt="bluecolty icon">
+                </div>
+            </section>
+        </footer>
+
+        <!-- footer 2 (bottom) --> 
+        <footer class="lower-footer-background">
+            <section class=" container footer-padding">
+                <p class="text-align-center">
+                    <a href="https://bluecolty.com">Home</a> | <a href="https://bluecolty.com/olive-avenue/">Olive Avenue</a> | <a href="https://bluecolty.com/art-projects/">Art Projects</a> | <a href="http://bluecolty.com/pc-store/">PC Store</a>
+                </p>
+                <hr class="">
+                <p class="text-align-center">
+                    <a href="https://bluecolty.com/links/">All Links</a> | <a href="https://bluecolty.com/commissions-tos/">Commissions Terms</a> | <a href="https://bluecolty.com/contact/">Contact</a>
+                </p>
+                <p class="text-align-center">&middot; &middot; &middot; &middot; &middot; &middot; &middot; &middot; &middot;</p>
+                <p class="text-align-center small-footer-text">Bluecolty.com &copy;2025 <br> Website designed, built, and hosted by Bluecolty</p>
+            </section>
+        </footer>
     </body>
 </html>

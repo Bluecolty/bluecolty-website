@@ -1,6 +1,6 @@
 /* 
 
-	----  D O W N L O A D s   C S S   D O C  ----
+	----  D O W N L O A D S   P A G E   C S S   D O C  ----
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	For:
 	- 
@@ -9,7 +9,7 @@
 
 /* BANNER IMAGE */
 .downloads-banner {
-	background-image: url("/web-images-downloads/downloadables-banner.png");
+	background-image: url("../web-images-downloads/downloads-banner.jpg");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
@@ -25,4 +25,12 @@
 	background-image: url("../../web-images-sidewide/sitewide-footer-banner.png");
 }
 
-/* TEMPORARY */
+/* MISC */
+
+.container img {
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
