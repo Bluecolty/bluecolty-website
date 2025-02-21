@@ -12,14 +12,14 @@
 }
 
 /* BANNER IMAGE */
-.characters-banner {
-	background-image: url("../characters/web-images-characters-page/characters-banner.jpg");
+.scenes-banner {
+	background-image: url("../scenes/web-images-scenes-page/scenes-banner.jpg");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
 }
 
-#characters-banner-id {
+#scenes-banner-id {
 	padding-top: 20%;
 	padding-bottom: 20%;
 }
