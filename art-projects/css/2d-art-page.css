@@ -59,3 +59,15 @@
 	-webkit-text-fill-color: #fff;
 	box-shadow: #222 1px 0 10px;
 }
+
+.bordered-image {
+    transition: transform 0.3s ease;
+	border: 1px solid #dd2476;
+	color: rgba(250, 250, 250, 0.8);
+}
+
+.bordered-image:hover {
+    transform: scale(1.05);
+	border: 1px solid #dd2476;
+	color: rgba(250, 250, 250, 0.8);
+}
