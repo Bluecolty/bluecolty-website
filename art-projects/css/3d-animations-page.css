@@ -7,6 +7,10 @@
 
 */
 
+:root {
+	--gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%);
+}
+
 /* BANNER IMAGE */
 .animations-banner {
 	background-image: url("../3d-animations/web-images-3d-animations-page/3d-animations-banner.jpg");
@@ -23,4 +27,35 @@
 /* FOOTER */
 .upper-footer-background {
 	background-image: url("../../web-images-sidewide/sitewide-footer-banner.png");
+}
+
+/* CARDS CSS */
+
+.modal-header {
+	background-image: var(--gradient);
+}
+  
+.commission-card {
+	background: #222;
+	border: 1px solid #dd2476;
+	color: rgba(250, 250, 250, 0.8);
+	margin-bottom: 2rem;
+}
+  
+.btn-custom {
+	border: 5px solid;
+	border-image-slice: 1;
+	background: var(--gradient);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-image-source:  var(--gradient); 
+	text-decoration: none;
+	transition: all .4s ease;
+}
+  
+.btn-custom:hover, .btn-custom:active {
+	background: var(--gradient);
+	-webkit-background-clip: none;
+	-webkit-text-fill-color: #fff;
+	box-shadow: #222 1px 0 10px;
 }

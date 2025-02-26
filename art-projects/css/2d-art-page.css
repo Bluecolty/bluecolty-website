@@ -1,6 +1,6 @@
 /* 
 
-	----  A R T   P R O J E C T S   C S S   D O C  ----
+	----  2 D   A R T   P A G E   C S S   D O C  ----
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	For:
 	- 
@@ -12,21 +12,21 @@
 }
 
 /* BANNER IMAGE */
-.art-projects-banner {
-	background-image: url("../web-images-art-projects/art-projects-banner.png");
+.twod-art-banner {
+	background-image: url("../web-images-2d-art-page/2d-art-banner.png");
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
 }
 
-#art-projects-banner-id {
+#twod-art-banner-id {
 	padding-top: 20%;
 	padding-bottom: 20%;
 }
 
 /* FOOTER */
 .upper-footer-background {
-	background-image: url("../../web-images-sidewide/sitewide-footer-banner.png");
+	background-image: url("../../../web-images-sidewide/sitewide-footer-banner.png");
 }
 
 /* CARDS CSS */
