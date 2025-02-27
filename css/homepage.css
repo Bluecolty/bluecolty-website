@@ -7,6 +7,10 @@
 
 */
 
+:root {
+	--gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%);
+}
+
 /* BANNER IMAGE */
 .homepage-banner {
 	background-image: url("https://bluecolty.com/web-images-homepage/homepage-banner.jpg");
@@ -25,10 +29,15 @@
 	background-image: url("../web-images-sidewide/sitewide-footer-banner.png");
 }
 
-.container img {
+.bordered-image {
     transition: transform 0.3s ease;
+	border: 1px solid #dd2476;
+	color: rgba(250, 250, 250, 0.8);
 }
 
-.container img:hover {
+.bordered-image:hover {
     transform: scale(1.05);
+	border: 1px solid #dd2476;
+	color: rgba(250, 250, 250, 0.8);
 }
+
